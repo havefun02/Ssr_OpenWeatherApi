@@ -1,0 +1,29 @@
+﻿.city-search {
+    height: 30px;
+}
+.search {
+    position: relative;
+    height: 100%;
+}
+    .search input {
+        padding: 5px;
+        height: 100%;
+        font-size: 10px;
+        border-radius: 0;
+        border: none;
+        background-color: aliceblue;
+        box-sizing:border-box;
+        line-height:30px;
+    }
+    .search input:focus {
+        outline:none;
+        border:none;
+    }
+    .city-search button {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 0;
+    }

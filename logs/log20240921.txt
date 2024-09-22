@@ -1,0 +1,369 @@
+2024-09-21 20:32:29.065 +07:00 [INF] App started on port 3000
+2024-09-21 20:33:01.602 +07:00 [INF] App started on port 3000
+2024-09-21 20:51:36.085 +07:00 [INF] App started on port 3000
+2024-09-21 20:51:39.145 +07:00 [INF] Handling request: GET /index
+2024-09-21 20:51:39.293 +07:00 [INF] Finished handling request: GET /index with status code 404 in 153ms
+2024-09-21 20:51:39.819 +07:00 [INF] Handling request: GET /favicon.ico
+2024-09-21 20:51:39.824 +07:00 [INF] Finished handling request: GET /favicon.ico with status code 404 in 5ms
+2024-09-21 20:52:04.028 +07:00 [INF] Handling request: GET /index
+2024-09-21 20:52:04.030 +07:00 [INF] Finished handling request: GET /index with status code 404 in 2ms
+2024-09-21 20:52:47.670 +07:00 [INF] App started on port 3000
+2024-09-21 20:52:53.803 +07:00 [INF] Handling request: GET /app
+2024-09-21 20:52:53.830 +07:00 [INF] Finished handling request: GET /app with status code 404 in 30ms
+2024-09-21 20:52:56.882 +07:00 [INF] Handling request: GET /app
+2024-09-21 20:52:56.898 +07:00 [INF] Finished handling request: GET /app with status code 404 in 15ms
+2024-09-21 20:53:02.210 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:53:02.370 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 159ms
+2024-09-21 20:53:02.387 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:53:02.387 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 20:53:02.394 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 7ms
+2024-09-21 20:53:02.409 +07:00 [INF] Finished handling request: GET /css/site.css with status code 200 in 22ms
+2024-09-21 20:54:37.836 +07:00 [INF] App started on port 3000
+2024-09-21 20:54:38.222 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:54:38.298 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 79ms
+2024-09-21 20:54:38.317 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:54:38.332 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-21 20:55:14.229 +07:00 [INF] App started on port 3000
+2024-09-21 20:55:14.430 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:55:14.491 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 64ms
+2024-09-21 20:55:14.517 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 20:55:14.529 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 12ms
+2024-09-21 20:55:14.536 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:55:14.546 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 10ms
+2024-09-21 20:55:47.243 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:55:47.250 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 6ms
+2024-09-21 20:55:47.265 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:55:47.269 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-21 20:55:48.477 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:55:48.480 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 2ms
+2024-09-21 20:55:48.496 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:55:48.499 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-21 20:55:59.718 +07:00 [INF] App started on port 3000
+2024-09-21 20:56:00.925 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:56:01.003 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 80ms
+2024-09-21 20:56:01.387 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:56:01.403 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-21 20:56:03.129 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:56:03.135 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 6ms
+2024-09-21 20:56:03.153 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:56:03.157 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-21 20:56:04.153 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:56:04.158 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 4ms
+2024-09-21 20:56:04.180 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:56:04.186 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 6ms
+2024-09-21 20:56:04.890 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:56:04.894 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-21 20:56:04.909 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:56:04.913 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-21 20:56:12.925 +07:00 [INF] Handling request: GET /About
+2024-09-21 20:56:12.931 +07:00 [INF] Finished handling request: GET /About with status code 404 in 5ms
+2024-09-21 20:56:37.328 +07:00 [INF] Handling request: GET /About
+2024-09-21 20:56:37.333 +07:00 [INF] Finished handling request: GET /About with status code 404 in 4ms
+2024-09-21 20:56:45.377 +07:00 [INF] App started on port 3000
+2024-09-21 20:57:56.877 +07:00 [INF] App started on port 3000
+2024-09-21 20:58:00.160 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:58:00.242 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 86ms
+2024-09-21 20:58:00.263 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:58:00.263 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 20:58:00.273 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 10ms
+2024-09-21 20:58:00.279 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-21 20:58:02.146 +07:00 [INF] Handling request: GET /app/app/about
+2024-09-21 20:58:02.149 +07:00 [INF] Finished handling request: GET /app/app/about with status code 404 in 3ms
+2024-09-21 20:58:27.410 +07:00 [INF] App started on port 3000
+2024-09-21 20:58:27.629 +07:00 [INF] Handling request: GET /app/app/about
+2024-09-21 20:58:27.662 +07:00 [INF] Finished handling request: GET /app/app/about with status code 404 in 35ms
+2024-09-21 20:58:31.826 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:58:31.879 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 53ms
+2024-09-21 20:58:31.897 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:58:31.902 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-21 20:58:33.901 +07:00 [INF] Handling request: GET /app/about
+2024-09-21 20:58:33.908 +07:00 [INF] Finished handling request: GET /app/about with status code 404 in 7ms
+2024-09-21 20:58:56.855 +07:00 [INF] Handling request: GET /app/about
+2024-09-21 20:58:56.864 +07:00 [INF] Finished handling request: GET /app/about with status code 404 in 8ms
+2024-09-21 20:59:12.838 +07:00 [INF] App started on port 3000
+2024-09-21 20:59:13.103 +07:00 [INF] Handling request: GET /app/about
+2024-09-21 20:59:13.172 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 71ms
+2024-09-21 20:59:13.192 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:59:13.205 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-21 20:59:17.824 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:59:17.835 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 10ms
+2024-09-21 20:59:17.856 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:59:17.861 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-21 20:59:22.279 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:59:22.282 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 2ms
+2024-09-21 20:59:22.297 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:59:22.305 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-21 20:59:23.271 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 20:59:23.272 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 1ms
+2024-09-21 20:59:23.290 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 20:59:23.296 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 6ms
+2024-09-21 21:01:30.088 +07:00 [INF] App started on port 3000
+2024-09-21 21:01:30.253 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:01:30.355 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 108ms
+2024-09-21 21:01:30.378 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:01:30.378 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:01:30.387 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 8ms
+2024-09-21 21:01:30.394 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-21 21:01:46.482 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:01:46.495 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 12ms
+2024-09-21 21:01:46.510 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:01:46.515 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-21 21:01:53.790 +07:00 [INF] App started on port 3000
+2024-09-21 21:01:54.142 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:01:54.208 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 68ms
+2024-09-21 21:01:54.234 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:01:54.248 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-21 21:02:17.654 +07:00 [INF] App started on port 3000
+2024-09-21 21:02:23.297 +07:00 [INF] App started on port 3000
+2024-09-21 21:02:23.664 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:02:23.736 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 74ms
+2024-09-21 21:02:23.755 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:02:23.763 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-21 21:05:39.262 +07:00 [INF] App started on port 3000
+2024-09-21 21:05:44.217 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:05:44.298 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 86ms
+2024-09-21 21:05:44.318 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:05:44.318 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:05:44.332 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-21 21:05:44.352 +07:00 [INF] Finished handling request: GET /css/site.css with status code 200 in 34ms
+2024-09-21 21:05:56.348 +07:00 [INF] App started on port 3000
+2024-09-21 21:06:07.255 +07:00 [INF] App started on port 3000
+2024-09-21 21:06:07.508 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:06:07.575 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 70ms
+2024-09-21 21:06:07.593 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:06:07.593 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:06:07.602 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 8ms
+2024-09-21 21:06:07.606 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-21 21:06:31.171 +07:00 [INF] App started on port 3000
+2024-09-21 21:06:31.351 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:06:31.412 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 64ms
+2024-09-21 21:06:31.431 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:06:31.431 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:06:31.440 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 8ms
+2024-09-21 21:06:31.444 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-21 21:08:54.305 +07:00 [INF] App started on port 3000
+2024-09-21 21:08:54.575 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:08:54.633 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 62ms
+2024-09-21 21:08:54.654 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:08:54.654 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:08:54.654 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:08:54.661 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 7ms
+2024-09-21 21:08:54.668 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-21 21:08:54.683 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 28ms
+2024-09-21 21:08:59.098 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:08:59.103 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 4ms
+2024-09-21 21:09:58.016 +07:00 [INF] App started on port 3000
+2024-09-21 21:09:58.174 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:09:58.245 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 73ms
+2024-09-21 21:09:58.276 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:09:58.276 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:09:58.276 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:09:58.288 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 12ms
+2024-09-21 21:09:58.294 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 17ms
+2024-09-21 21:09:58.313 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 37ms
+2024-09-21 21:10:31.235 +07:00 [INF] App started on port 3000
+2024-09-21 21:10:31.456 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:10:31.534 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 83ms
+2024-09-21 21:10:31.572 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:10:31.572 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:10:31.572 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:10:31.595 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 22ms
+2024-09-21 21:10:31.601 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 28ms
+2024-09-21 21:10:31.620 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 46ms
+2024-09-21 21:11:01.700 +07:00 [INF] App started on port 3000
+2024-09-21 21:11:01.938 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:11:02.006 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 70ms
+2024-09-21 21:11:02.030 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:11:02.030 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:11:02.030 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:11:02.040 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 9ms
+2024-09-21 21:11:02.048 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 18ms
+2024-09-21 21:11:02.065 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 35ms
+2024-09-21 21:11:47.052 +07:00 [INF] App started on port 3000
+2024-09-21 21:11:47.414 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:11:47.481 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 69ms
+2024-09-21 21:11:47.506 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:11:47.508 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:11:47.508 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:11:47.521 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 14ms
+2024-09-21 21:11:47.535 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 27ms
+2024-09-21 21:11:47.546 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 38ms
+2024-09-21 21:13:48.550 +07:00 [INF] App started on port 3000
+2024-09-21 21:13:48.862 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:13:48.974 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 117ms
+2024-09-21 21:13:49.016 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:13:49.016 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:13:49.016 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:13:49.030 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 13ms
+2024-09-21 21:13:49.040 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 23ms
+2024-09-21 21:13:49.063 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 46ms
+2024-09-21 21:14:18.295 +07:00 [INF] App started on port 3000
+2024-09-21 21:14:18.550 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:14:18.616 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 68ms
+2024-09-21 21:14:18.645 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:14:18.684 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 39ms
+2024-09-21 21:14:18.691 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:14:18.709 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 17ms
+2024-09-21 21:14:45.972 +07:00 [INF] App started on port 3000
+2024-09-21 21:14:46.346 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:14:46.445 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 105ms
+2024-09-21 21:14:46.484 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:14:46.484 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:14:46.484 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:14:46.494 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 10ms
+2024-09-21 21:14:46.501 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 16ms
+2024-09-21 21:14:46.519 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 35ms
+2024-09-21 21:15:09.847 +07:00 [INF] App started on port 3000
+2024-09-21 21:15:10.106 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:15:10.233 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 133ms
+2024-09-21 21:15:10.263 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:15:10.263 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:15:10.290 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 26ms
+2024-09-21 21:15:10.306 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 43ms
+2024-09-21 21:15:28.005 +07:00 [INF] App started on port 3000
+2024-09-21 21:15:28.221 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:15:28.300 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 81ms
+2024-09-21 21:15:28.331 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:15:28.331 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:15:28.348 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 17ms
+2024-09-21 21:15:28.373 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 42ms
+2024-09-21 21:16:16.724 +07:00 [INF] App started on port 3000
+2024-09-21 21:16:18.176 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:16:18.264 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 91ms
+2024-09-21 21:16:18.300 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:16:18.300 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:16:18.300 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:16:18.315 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 15ms
+2024-09-21 21:16:18.321 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 20ms
+2024-09-21 21:16:18.336 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 35ms
+2024-09-21 21:16:46.623 +07:00 [INF] App started on port 3000
+2024-09-21 21:16:46.833 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:16:46.916 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 86ms
+2024-09-21 21:16:46.942 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:16:46.943 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:16:46.968 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 25ms
+2024-09-21 21:16:46.994 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 52ms
+2024-09-21 21:18:19.727 +07:00 [INF] App started on port 3000
+2024-09-21 21:18:19.991 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:18:20.112 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 124ms
+2024-09-21 21:18:20.147 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:18:20.147 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:18:20.148 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:18:20.172 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 24ms
+2024-09-21 21:18:20.184 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 35ms
+2024-09-21 21:18:20.213 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 64ms
+2024-09-21 21:18:48.164 +07:00 [INF] App started on port 3000
+2024-09-21 21:18:48.598 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:18:48.702 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 109ms
+2024-09-21 21:18:48.727 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:18:48.727 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:18:48.750 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 22ms
+2024-09-21 21:18:48.769 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 41ms
+2024-09-21 21:20:33.481 +07:00 [INF] App started on port 3000
+2024-09-21 21:20:33.710 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:20:33.827 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 123ms
+2024-09-21 21:20:33.860 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:20:33.860 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:20:33.860 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:20:33.885 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 25ms
+2024-09-21 21:20:33.886 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 26ms
+2024-09-21 21:20:33.904 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 44ms
+2024-09-21 21:22:04.667 +07:00 [INF] App started on port 3000
+2024-09-21 21:22:04.925 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:22:05.018 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 96ms
+2024-09-21 21:22:05.056 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:22:05.056 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:22:05.073 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 16ms
+2024-09-21 21:22:05.085 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:22:05.101 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 16ms
+2024-09-21 21:22:05.104 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 48ms
+2024-09-21 21:23:43.863 +07:00 [INF] App started on port 3000
+2024-09-21 21:23:44.280 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:23:44.357 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 81ms
+2024-09-21 21:23:44.388 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:23:44.388 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:23:44.388 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:23:44.400 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 11ms
+2024-09-21 21:23:44.413 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 24ms
+2024-09-21 21:23:44.427 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 38ms
+2024-09-21 21:28:52.578 +07:00 [INF] App started on port 3000
+2024-09-21 21:28:54.582 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:28:54.680 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 101ms
+2024-09-21 21:28:54.713 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:28:54.713 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:28:54.715 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:28:54.727 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 13ms
+2024-09-21 21:28:54.737 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 22ms
+2024-09-21 21:28:54.750 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 36ms
+2024-09-21 21:29:37.547 +07:00 [INF] App started on port 3000
+2024-09-21 21:29:43.314 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:29:43.430 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 120ms
+2024-09-21 21:29:43.463 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:29:43.465 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:29:43.483 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 18ms
+2024-09-21 21:29:43.508 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 44ms
+2024-09-21 21:32:33.604 +07:00 [INF] App started on port 3000
+2024-09-21 21:32:33.994 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:32:34.073 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 82ms
+2024-09-21 21:32:34.106 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:32:34.109 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:32:34.109 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:32:34.126 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 19ms
+2024-09-21 21:32:34.139 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 29ms
+2024-09-21 21:32:34.153 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 43ms
+2024-09-21 21:35:21.014 +07:00 [INF] App started on port 3000
+2024-09-21 21:35:21.383 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:35:21.462 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 83ms
+2024-09-21 21:35:21.498 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:35:21.499 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:35:21.499 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:35:21.512 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 13ms
+2024-09-21 21:35:21.522 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 22ms
+2024-09-21 21:35:21.536 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 36ms
+2024-09-21 21:37:19.223 +07:00 [INF] App started on port 3000
+2024-09-21 21:37:19.566 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:37:19.654 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 93ms
+2024-09-21 21:37:19.686 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:37:19.686 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:37:19.701 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-21 21:37:19.719 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 32ms
+2024-09-21 21:38:55.323 +07:00 [INF] App started on port 3000
+2024-09-21 21:38:58.811 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:38:58.914 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 107ms
+2024-09-21 21:38:58.944 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:38:58.944 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:38:58.945 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:38:58.961 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 17ms
+2024-09-21 21:38:58.969 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 24ms
+2024-09-21 21:38:58.986 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 41ms
+2024-09-21 21:43:38.773 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:43:38.786 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 13ms
+2024-09-21 21:43:38.810 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-21 21:43:38.812 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:43:38.812 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:43:38.821 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 10ms
+2024-09-21 21:43:38.826 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-21 21:43:38.848 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 35ms
+2024-09-21 21:44:17.366 +07:00 [INF] App started on port 3000
+2024-09-21 21:44:32.341 +07:00 [INF] App started on port 3000
+2024-09-21 21:44:41.774 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:44:41.846 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 75ms
+2024-09-21 21:44:41.887 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:44:41.887 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:44:41.897 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 9ms
+2024-09-21 21:44:41.911 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 24ms
+2024-09-21 21:45:47.459 +07:00 [INF] App started on port 3000
+2024-09-21 21:45:47.646 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:45:47.704 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 60ms
+2024-09-21 21:45:47.727 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:45:47.734 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 7ms
+2024-09-21 21:45:47.742 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:45:47.755 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-21 21:46:35.203 +07:00 [INF] App started on port 3000
+2024-09-21 21:46:43.183 +07:00 [INF] App started on port 3000
+2024-09-21 21:46:43.403 +07:00 [INF] Handling request: GET /app/index
+2024-09-21 21:46:43.466 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 66ms
+2024-09-21 21:46:43.489 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-21 21:46:43.492 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-21 21:46:43.508 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 19ms
+2024-09-21 21:46:43.521 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 29ms

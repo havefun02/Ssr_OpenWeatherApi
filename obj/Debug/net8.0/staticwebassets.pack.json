@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\app\\index.css",
+      "PackagePath": "staticwebassets\\css\\app\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\js\\api\\app.js",
+      "PackagePath": "staticwebassets\\js\\api\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\notFoundPage.html",
+      "PackagePath": "staticwebassets\\notFoundPage.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeatherThirdParty.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WeatherThirdParty.props",
+      "PackagePath": "build\\WeatherThirdParty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WeatherThirdParty.props",
+      "PackagePath": "buildMultiTargeting\\WeatherThirdParty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WeatherThirdParty.props",
+      "PackagePath": "buildTransitive\\WeatherThirdParty.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,531 @@
+2024-09-22 14:05:40.724 +07:00 [INF] App started on port 3000
+2024-09-22 14:05:45.907 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:05:45.978 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 76ms
+2024-09-22 14:05:46.120 +07:00 [INF] Handling request: GET /favicon.ico
+2024-09-22 14:05:46.170 +07:00 [INF] Finished handling request: GET /favicon.ico with status code 404 in 49ms
+2024-09-22 14:17:37.288 +07:00 [INF] App started on port 3000
+2024-09-22 14:17:45.587 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:17:45.678 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 99ms
+2024-09-22 14:32:28.318 +07:00 [INF] App started on port 3000
+2024-09-22 14:32:42.518 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:32:42.572 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '~Views/Shared/_Layout.cshtml' could not be located. The following locations were searched:
+~Views/Shared/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 14:33:20.166 +07:00 [INF] App started on port 3000
+2024-09-22 14:33:21.458 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:33:21.563 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 114ms
+2024-09-22 14:33:21.596 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-22 14:33:21.596 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:33:21.596 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 14:33:21.606 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 10ms
+2024-09-22 14:33:21.611 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-22 14:33:21.627 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 200 in 31ms
+2024-09-22 14:33:23.346 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:33:23.350 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 4ms
+2024-09-22 14:33:23.367 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:33:23.370 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-22 14:33:24.380 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:33:24.384 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 4ms
+2024-09-22 14:33:24.396 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:33:24.400 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-22 14:33:25.177 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:33:25.184 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 6ms
+2024-09-22 14:33:25.197 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:33:25.201 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-22 14:42:42.706 +07:00 [INF] App started on port 3000
+2024-09-22 14:42:49.645 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:42:49.742 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 101ms
+2024-09-22 14:42:49.766 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 14:42:49.777 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:42:49.804 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 37ms
+2024-09-22 14:42:49.811 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 33ms
+2024-09-22 14:45:58.502 +07:00 [INF] App started on port 3000
+2024-09-22 14:46:04.631 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:46:04.712 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 85ms
+2024-09-22 14:46:04.734 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:46:04.747 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-22 14:46:08.365 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:46:08.372 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 6ms
+2024-09-22 14:46:08.384 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:46:08.388 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-22 14:46:42.736 +07:00 [INF] App started on port 3000
+2024-09-22 14:46:42.924 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:46:42.984 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 62ms
+2024-09-22 14:46:43.002 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:46:43.014 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-22 14:47:30.423 +07:00 [INF] App started on port 3000
+2024-09-22 14:47:31.860 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:47:31.931 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 73ms
+2024-09-22 14:47:31.963 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:47:31.963 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:47:31.973 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 9ms
+2024-09-22 14:47:32.006 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 42ms
+2024-09-22 14:48:07.796 +07:00 [INF] App started on port 3000
+2024-09-22 14:48:10.726 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:48:10.790 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 67ms
+2024-09-22 14:48:10.811 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 14:48:10.811 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:48:10.811 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:48:10.822 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 11ms
+2024-09-22 14:48:10.830 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 19ms
+2024-09-22 14:48:10.853 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 42ms
+2024-09-22 14:49:03.597 +07:00 [INF] App started on port 3000
+2024-09-22 14:49:12.204 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:49:12.280 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 79ms
+2024-09-22 14:49:12.315 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:49:12.315 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:49:12.340 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 24ms
+2024-09-22 14:49:12.342 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 26ms
+2024-09-22 14:50:58.152 +07:00 [INF] App started on port 3000
+2024-09-22 14:51:01.357 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:51:01.476 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 125ms
+2024-09-22 14:51:01.510 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:51:01.510 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:51:01.523 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 13ms
+2024-09-22 14:51:01.542 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 32ms
+2024-09-22 14:51:05.430 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:51:05.455 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 25ms
+2024-09-22 14:51:51.027 +07:00 [INF] App started on port 3000
+2024-09-22 14:51:54.975 +07:00 [INF] App started on port 3000
+2024-09-22 14:51:55.166 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:51:55.222 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 60ms
+2024-09-22 14:51:55.244 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:51:55.247 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:51:55.255 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 7ms
+2024-09-22 14:51:55.256 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 11ms
+2024-09-22 14:52:00.774 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:52:00.800 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 25ms
+2024-09-22 14:52:48.507 +07:00 [INF] App started on port 3000
+2024-09-22 14:52:49.609 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:52:49.669 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 62ms
+2024-09-22 14:52:49.685 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:52:49.685 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:52:49.695 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 10ms
+2024-09-22 14:52:49.719 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 33ms
+2024-09-22 14:52:52.555 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:52:52.574 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 19ms
+2024-09-22 14:54:05.224 +07:00 [INF] App started on port 3000
+2024-09-22 14:54:05.473 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:54:05.539 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 69ms
+2024-09-22 14:54:05.563 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 14:54:05.563 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:54:05.563 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:54:05.572 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 8ms
+2024-09-22 14:54:05.572 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 8ms
+2024-09-22 14:54:05.579 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 16ms
+2024-09-22 14:54:08.931 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:54:08.965 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 33ms
+2024-09-22 14:54:30.951 +07:00 [INF] App started on port 3000
+2024-09-22 14:54:32.636 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:54:32.709 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 76ms
+2024-09-22 14:54:32.732 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:54:32.732 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:54:32.742 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 10ms
+2024-09-22 14:54:32.747 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-22 14:54:34.918 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:54:34.949 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 31ms
+2024-09-22 14:55:55.888 +07:00 [INF] App started on port 3000
+2024-09-22 14:55:56.234 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:55:56.323 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 92ms
+2024-09-22 14:55:56.354 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:55:56.354 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:55:56.364 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 10ms
+2024-09-22 14:55:56.371 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 16ms
+2024-09-22 14:55:58.545 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:55:58.585 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 400 in 40ms
+2024-09-22 14:56:16.856 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:56:16.863 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 400 in 7ms
+2024-09-22 14:57:32.295 +07:00 [INF] App started on port 3000
+2024-09-22 14:57:37.033 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:57:37.119 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 89ms
+2024-09-22 14:57:37.156 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:57:37.192 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:57:37.221 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 65ms
+2024-09-22 14:57:37.258 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 66ms
+2024-09-22 14:57:39.530 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 14:57:39.560 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 30ms
+2024-09-22 14:59:43.142 +07:00 [INF] App started on port 3000
+2024-09-22 14:59:47.783 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 14:59:47.873 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 95ms
+2024-09-22 14:59:47.890 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 14:59:47.890 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 14:59:47.898 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-22 14:59:47.901 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 11ms
+2024-09-22 15:00:15.302 +07:00 [INF] App started on port 3000
+2024-09-22 15:00:15.841 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:00:15.909 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 71ms
+2024-09-22 15:00:15.940 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:00:15.940 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 15:00:15.940 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:00:15.949 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 8ms
+2024-09-22 15:00:15.949 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 8ms
+2024-09-22 15:00:15.949 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-22 15:00:19.644 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:00:19.681 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 36ms
+2024-09-22 15:00:29.902 +07:00 [INF] App started on port 3000
+2024-09-22 15:00:30.094 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:00:30.164 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 72ms
+2024-09-22 15:00:30.183 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:00:30.183 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:00:30.191 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 8ms
+2024-09-22 15:00:30.191 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-22 15:00:34.578 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:00:34.606 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 27ms
+2024-09-22 15:01:52.820 +07:00 [INF] App started on port 3000
+2024-09-22 15:02:03.797 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:02:03.862 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 68ms
+2024-09-22 15:02:03.879 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:02:03.879 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:02:03.887 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 8ms
+2024-09-22 15:02:03.891 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-22 15:02:06.138 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:02:06.183 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 44ms
+2024-09-22 15:02:10.241 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:02:10.246 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 5ms
+2024-09-22 15:02:10.264 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:02:10.270 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 5ms
+2024-09-22 15:02:26.462 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:02:26.468 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 5ms
+2024-09-22 15:03:13.694 +07:00 [INF] App started on port 3000
+2024-09-22 15:03:17.537 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:03:17.607 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 73ms
+2024-09-22 15:03:17.637 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:03:17.638 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:03:17.650 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 11ms
+2024-09-22 15:03:17.656 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 18ms
+2024-09-22 15:03:22.707 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:03:22.766 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 59ms
+2024-09-22 15:03:52.236 +07:00 [INF] App started on port 3000
+2024-09-22 15:03:52.481 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:03:52.545 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 67ms
+2024-09-22 15:03:52.561 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:03:52.561 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:03:52.571 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 10ms
+2024-09-22 15:03:52.575 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-22 15:03:54.668 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:03:54.696 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 28ms
+2024-09-22 15:55:04.098 +07:00 [INF] App started on port 3000
+2024-09-22 15:55:11.374 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 15:55:11.515 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 145ms
+2024-09-22 15:55:11.541 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 15:55:11.541 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 15:55:11.541 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 15:55:11.551 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 10ms
+2024-09-22 15:55:11.551 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 10ms
+2024-09-22 15:55:11.556 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-22 15:55:19.802 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:55:20.893 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Error: BadRequest
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 50
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 15:56:42.884 +07:00 [INF] App started on port 3000
+2024-09-22 15:56:47.736 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:56:48.277 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Error: BadRequest
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 51
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 15:58:51.349 +07:00 [INF] App started on port 3000
+2024-09-22 15:58:54.000 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 15:58:54.464 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to App.Models.Location. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at App.Services.AppService.GetLocationAsync(String cityName, String apiKey, String endpoint) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 27
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 41
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:00:03.253 +07:00 [INF] App started on port 3000
+2024-09-22 16:00:06.435 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:00:06.782 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to App.Models.Location. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at App.Services.AppService.GetLocationAsync(String cityName, String apiKey, String endpoint) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 27
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 41
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:01:23.087 +07:00 [INF] App started on port 3000
+2024-09-22 16:01:29.318 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:01:29.675 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to App.Models.Location. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at App.Services.AppService.GetLocationAsync(String cityName, String apiKey, String endpoint) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 27
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 41
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:03:22.117 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:03:22.159 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 42ms
+2024-09-22 16:03:22.175 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 16:03:22.175 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:03:22.183 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 8ms
+2024-09-22 16:03:22.188 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-22 16:03:27.069 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:03:27.252 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to App.Models.Location. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at App.Services.AppService.GetLocationAsync(String cityName, String apiKey, String endpoint) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 27
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 41
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:04:51.406 +07:00 [INF] App started on port 3000
+2024-09-22 16:04:53.216 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:04:53.560 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON value could not be converted to App.Models.Location. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at App.Services.AppService.GetLocationAsync(String cityName, String apiKey, String endpoint) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 27
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 41
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:05:54.804 +07:00 [INF] App started on port 3000
+2024-09-22 16:06:03.554 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:06:04.674 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 1123ms
+2024-09-22 16:06:53.125 +07:00 [INF] App started on port 3000
+2024-09-22 16:06:54.582 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:06:55.066 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 486ms
+2024-09-22 16:08:07.234 +07:00 [INF] App started on port 3000
+2024-09-22 16:09:27.835 +07:00 [INF] App started on port 3000
+2024-09-22 16:09:31.107 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:09:32.355 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Services.AppService.GetDataAsync(String cityName) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Services\AppService.cs:line 49
+   at WeatherThirdParty.Controllers.AppController.SearchCity(String city) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Controllers\AppController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at App.Core.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\Core\LoggingMiddleware.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 16:10:41.901 +07:00 [INF] App started on port 3000
+2024-09-22 16:10:43.973 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:10:44.438 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 466ms
+2024-09-22 16:14:32.243 +07:00 [INF] App started on port 3000
+2024-09-22 16:14:38.172 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:14:38.892 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 723ms
+2024-09-22 16:15:33.884 +07:00 [INF] App started on port 3000
+2024-09-22 16:15:57.523 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:15:57.659 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 139ms
+2024-09-22 16:15:57.676 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-22 16:15:57.676 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:15:57.676 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-22 16:15:57.683 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 7ms
+2024-09-22 16:15:57.683 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 7ms
+2024-09-22 16:15:57.689 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-22 16:16:04.430 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:16:04.819 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 389ms
+2024-09-22 16:16:59.885 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:16:59.897 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 11ms
+2024-09-22 16:16:59.918 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:16:59.922 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-22 16:17:05.089 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:17:05.248 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 158ms
+2024-09-22 16:17:15.132 +07:00 [INF] App started on port 3000
+2024-09-22 16:17:17.115 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:17:17.256 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 143ms
+2024-09-22 16:17:17.272 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:17:17.280 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 7ms
+2024-09-22 16:17:23.254 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:17:23.746 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 491ms
+2024-09-22 16:17:30.474 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:17:31.600 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 1125ms
+2024-09-22 16:17:32.554 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:17:32.686 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 132ms
+2024-09-22 16:19:26.569 +07:00 [INF] App started on port 3000
+2024-09-22 16:19:31.021 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:19:31.527 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 509ms
+2024-09-22 16:19:33.386 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:19:33.423 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 36ms
+2024-09-22 16:19:33.436 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-22 16:19:33.439 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:19:33.444 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 8ms
+2024-09-22 16:19:33.447 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 7ms
+2024-09-22 16:19:37.787 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:19:38.643 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 855ms
+2024-09-22 16:20:15.279 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:20:16.045 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 766ms
+2024-09-22 16:20:19.909 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:20:20.061 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 151ms
+2024-09-22 16:20:20.754 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-22 16:20:21.216 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 462ms
+2024-09-22 16:20:58.203 +07:00 [INF] App started on port 3000
+2024-09-22 16:20:58.636 +07:00 [INF] Handling request: GET /app/index
+2024-09-22 16:20:58.784 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 151ms
+2024-09-22 16:20:58.828 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-22 16:20:58.880 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 51ms
