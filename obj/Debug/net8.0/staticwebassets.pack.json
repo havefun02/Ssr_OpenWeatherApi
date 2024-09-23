@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\js\\api\\app.js"
     },
     {
+      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\js\\api\\getUserLocation.js",
+      "PackagePath": "staticwebassets\\js\\api\\getUserLocation.js"
+    },
+    {
       "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\notFoundPage.html",
       "PackagePath": "staticwebassets\\notFoundPage.html"
     },

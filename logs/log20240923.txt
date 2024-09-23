@@ -1,0 +1,238 @@
+2024-09-23 12:34:16.020 +07:00 [INF] App started on port 3000
+2024-09-23 12:38:53.031 +07:00 [INF] App started on port 3000
+2024-09-23 12:41:22.619 +07:00 [INF] App started on port 3000
+2024-09-23 12:41:30.790 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:41:31.003 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 217ms
+2024-09-23 12:41:31.028 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:41:31.028 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:41:31.029 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-23 12:41:31.029 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-23 12:41:31.029 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-23 12:41:31.044 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 304 in 14ms
+2024-09-23 12:41:31.044 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 304 in 14ms
+2024-09-23 12:41:31.045 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 15ms
+2024-09-23 12:41:31.068 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 39ms
+2024-09-23 12:41:31.091 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 62ms
+2024-09-23 12:41:31.190 +07:00 [INF] Handling request: GET /favicon.ico
+2024-09-23 12:41:31.196 +07:00 [INF] Finished handling request: GET /favicon.ico with status code 404 in 5ms
+2024-09-23 12:42:00.818 +07:00 [INF] App started on port 3000
+2024-09-23 12:42:01.012 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:42:01.156 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 147ms
+2024-09-23 12:42:01.173 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:42:01.173 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:42:01.181 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 8ms
+2024-09-23 12:42:01.185 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-23 12:43:56.235 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:43:56.245 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 10ms
+2024-09-23 12:43:56.266 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:43:56.267 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:43:56.273 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 7ms
+2024-09-23 12:43:56.309 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 42ms
+2024-09-23 12:45:17.277 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:45:17.284 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 6ms
+2024-09-23 12:45:17.303 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:45:17.307 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-23 12:45:17.310 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:45:17.313 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 3ms
+2024-09-23 12:46:51.425 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:46:51.428 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-23 12:46:51.449 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:46:51.450 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:46:51.455 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 5ms
+2024-09-23 12:46:51.456 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 6ms
+2024-09-23 12:47:08.109 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:47:08.112 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 2ms
+2024-09-23 12:47:08.146 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:47:08.152 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 5ms
+2024-09-23 12:47:11.510 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:47:11.512 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 2ms
+2024-09-23 12:47:11.534 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:47:11.538 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:47:11.569 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 35ms
+2024-09-23 12:47:11.641 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 102ms
+2024-09-23 12:48:57.506 +07:00 [INF] App started on port 3000
+2024-09-23 12:48:57.718 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:48:57.887 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 172ms
+2024-09-23 12:48:57.913 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:48:57.913 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:48:57.927 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 12:48:57.952 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 38ms
+2024-09-23 12:49:30.922 +07:00 [INF] App started on port 3000
+2024-09-23 12:49:31.237 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:49:31.372 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 138ms
+2024-09-23 12:49:31.394 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:49:31.394 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:49:31.408 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 12:49:31.438 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 43ms
+2024-09-23 12:51:43.084 +07:00 [INF] App started on port 3000
+2024-09-23 12:51:43.490 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 12:51:43.674 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 193ms
+2024-09-23 12:51:43.701 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 12:51:43.701 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 12:51:43.711 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 10ms
+2024-09-23 12:51:43.742 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 41ms
+2024-09-23 12:51:49.336 +07:00 [INF] Handling request: POST /api/location
+2024-09-23 12:51:49.343 +07:00 [INF] Finished handling request: POST /api/location with status code 404 in 6ms
+2024-09-23 13:00:04.599 +07:00 [INF] App started on port 3000
+2024-09-23 13:00:06.686 +07:00 [INF] Handling request: POST /api/location
+2024-09-23 13:00:06.726 +07:00 [INF] Finished handling request: POST /api/location with status code 404 in 44ms
+2024-09-23 13:00:23.035 +07:00 [INF] App started on port 3000
+2024-09-23 13:00:24.407 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:00:24.548 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 144ms
+2024-09-23 13:00:24.584 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:00:24.584 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:00:24.599 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 13:00:24.625 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 40ms
+2024-09-23 13:00:26.907 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:00:26.958 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 51ms
+2024-09-23 13:05:59.434 +07:00 [INF] App started on port 3000
+2024-09-23 13:06:03.241 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:06:03.783 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 545ms
+2024-09-23 13:06:19.733 +07:00 [INF] App started on port 3000
+2024-09-23 13:06:20.112 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:06:20.258 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 148ms
+2024-09-23 13:06:20.660 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:06:20.667 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:06:20.674 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 13:06:20.707 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 40ms
+2024-09-23 13:06:22.049 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:06:22.411 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 361ms
+2024-09-23 13:08:18.691 +07:00 [INF] App started on port 3000
+2024-09-23 13:08:19.088 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:08:19.218 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 133ms
+2024-09-23 13:08:19.240 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:08:19.240 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:08:19.250 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 10ms
+2024-09-23 13:08:19.274 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 34ms
+2024-09-23 13:08:19.867 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:08:20.273 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 405ms
+2024-09-23 13:08:49.812 +07:00 [INF] App started on port 3000
+2024-09-23 13:08:50.094 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:08:50.226 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 134ms
+2024-09-23 13:08:50.253 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:08:50.253 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:08:50.262 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 8ms
+2024-09-23 13:08:50.268 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 13:08:50.613 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:08:50.961 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 348ms
+2024-09-23 13:08:52.368 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:08:52.373 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 4ms
+2024-09-23 13:08:52.389 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:08:52.393 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-23 13:08:52.532 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:08:52.593 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 61ms
+2024-09-23 13:09:05.041 +07:00 [INF] App started on port 3000
+2024-09-23 13:09:05.368 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:09:05.508 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 142ms
+2024-09-23 13:09:05.528 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:09:05.528 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:09:05.536 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 8ms
+2024-09-23 13:09:05.541 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-23 13:09:05.668 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:09:06.012 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 343ms
+2024-09-23 13:09:10.654 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:09:10.659 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 5ms
+2024-09-23 13:09:10.676 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:09:10.677 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:09:10.681 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 5ms
+2024-09-23 13:09:10.685 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 8ms
+2024-09-23 13:09:10.832 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:09:10.885 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 53ms
+2024-09-23 13:09:35.239 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-23 13:09:36.259 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 1020ms
+2024-09-23 13:11:07.543 +07:00 [INF] App started on port 3000
+2024-09-23 13:11:07.734 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:11:07.875 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 144ms
+2024-09-23 13:11:07.891 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:11:07.899 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-23 13:11:07.905 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:11:07.912 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 6ms
+2024-09-23 13:11:08.354 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:11:08.742 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 387ms
+2024-09-23 13:11:23.467 +07:00 [INF] App started on port 3000
+2024-09-23 13:11:23.676 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:11:23.809 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 134ms
+2024-09-23 13:11:23.828 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:11:23.841 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-23 13:11:23.904 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:11:24.197 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 293ms
+2024-09-23 13:11:47.985 +07:00 [INF] App started on port 3000
+2024-09-23 13:11:51.738 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:11:51.873 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 138ms
+2024-09-23 13:11:51.890 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:11:51.892 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:11:51.898 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 6ms
+2024-09-23 13:11:51.903 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-23 13:11:51.997 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:11:52.329 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 332ms
+2024-09-23 13:12:06.298 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-23 13:12:07.146 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-23 13:12:07.333 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 1034ms
+2024-09-23 13:12:07.946 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 800ms
+2024-09-23 13:14:03.709 +07:00 [INF] App started on port 3000
+2024-09-23 13:14:55.963 +07:00 [INF] App started on port 3000
+2024-09-23 13:14:56.285 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:14:56.407 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 125ms
+2024-09-23 13:14:56.437 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:14:56.437 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:14:56.450 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 13ms
+2024-09-23 13:14:56.454 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 17ms
+2024-09-23 13:14:56.917 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:14:57.387 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 469ms
+2024-09-23 13:15:11.837 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-23 13:15:11.945 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 108ms
+2024-09-23 13:16:57.678 +07:00 [INF] App started on port 3000
+2024-09-23 13:16:58.586 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:16:58.762 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 178ms
+2024-09-23 13:16:58.786 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:16:58.787 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:16:58.802 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 16ms
+2024-09-23 13:16:58.805 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 17ms
+2024-09-23 13:17:00.369 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:17:00.709 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 340ms
+2024-09-23 13:17:25.208 +07:00 [INF] App started on port 3000
+2024-09-23 13:17:29.579 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:17:29.713 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 137ms
+2024-09-23 13:17:29.731 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:17:29.731 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:17:29.738 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 7ms
+2024-09-23 13:17:29.740 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-23 13:17:29.835 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:17:30.162 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 327ms
+2024-09-23 13:19:07.746 +07:00 [INF] App started on port 3000
+2024-09-23 13:19:07.995 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:19:08.123 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 130ms
+2024-09-23 13:19:08.151 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:19:08.151 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:19:08.164 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 13ms
+2024-09-23 13:19:08.165 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-23 13:19:08.531 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:19:08.985 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 454ms
+2024-09-23 13:20:27.348 +07:00 [INF] App started on port 3000
+2024-09-23 13:20:31.834 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:20:32.000 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 170ms
+2024-09-23 13:20:32.022 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:20:32.022 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:20:32.031 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 8ms
+2024-09-23 13:20:32.031 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 9ms
+2024-09-23 13:20:32.391 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:20:32.741 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 350ms
+2024-09-23 13:21:15.934 +07:00 [INF] App started on port 3000
+2024-09-23 13:21:40.159 +07:00 [INF] App started on port 3000
+2024-09-23 13:21:41.663 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:21:41.790 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 130ms
+2024-09-23 13:21:41.812 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:21:41.812 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:21:41.822 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 9ms
+2024-09-23 13:21:41.823 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 10ms
+2024-09-23 13:21:42.328 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:21:42.761 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 432ms
+2024-09-23 13:23:33.463 +07:00 [INF] App started on port 3000
+2024-09-23 13:23:34.935 +07:00 [INF] Handling request: GET /app/index
+2024-09-23 13:23:35.063 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 131ms
+2024-09-23 13:23:35.088 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-23 13:23:35.088 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-23 13:23:35.099 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 304 in 11ms
+2024-09-23 13:23:35.109 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 20ms
+2024-09-23 13:23:35.476 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-23 13:23:35.964 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 487ms

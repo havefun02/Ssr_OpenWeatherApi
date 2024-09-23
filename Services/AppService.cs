@@ -36,7 +36,7 @@ namespace App.Services
             }
         }
 
-        public async Task<WeatherResponse> GetDataAsync(string cityName)
+        public async Task<WeatherResponse> GetDataByCityAsync(string cityName)
         {
             string apiKey = "1ef6f42f9c77c077c8bbf226d75d887e";
             string locationEndpoint = $"geo/1.0/direct?q={cityName}&limit=1&appid={apiKey}"; // Correctly interpolate variables
@@ -56,6 +56,26 @@ namespace App.Services
                 throw new Exception($"Error: {response.StatusCode}");
             }
         }
+        public async Task<WeatherResponse> GetDataByLocationAsync(double lat,double lon)
+        {
+            string apiKey = "1ef6f42f9c77c077c8bbf226d75d887e";
+            string weatherDataEndpoint = $"data/2.5/weather?lat={lat}&lon={lon}&appid={apiKey}"; // Correctly interpolate variables
+            HttpResponseMessage response = await _httpClient.GetAsync(weatherDataEndpoint);
+            if (response.IsSuccessStatusCode)
+            {
+                var res = await response.Content.ReadAsStringAsync();
+                var data = JsonSerializer.Deserialize<WeatherResponse>(res);
+                if (data != null)
+                    return data;
+                else throw new Exception("Cannot find data");
+            }
+            else
+            {
+                throw new Exception($"Error: {response.StatusCode}");
+            }
+
+        }
+
 
     }
 }

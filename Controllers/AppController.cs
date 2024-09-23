@@ -1,6 +1,7 @@
 ﻿using App.AppInterfaces;
 using App.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WeatherThirdParty.Controllers
@@ -29,9 +30,21 @@ namespace WeatherThirdParty.Controllers
             {
                 return BadRequest("City cannot be empty.");
             }
-            var data = await _appService.GetDataAsync(city);
+            var data = await _appService.GetDataByCityAsync(city);
             var res = _mapper.Map<WeatherResult>(data);
             return PartialView("_CityData", res);
+        }
+        [HttpPost]
+        public async Task<IActionResult> UserLocation([FromBody] UserLocation userLocation)
+        {
+            if (!ModelState.IsValid) {
+                return BadRequest("Invalid location.");
+            }
+            var data = await _appService.GetDataByLocationAsync(userLocation.lat,userLocation.lon);
+            var res = _mapper.Map<WeatherResult>(data);
+
+            return PartialView("_UserLocationData",res);
+
         }
 
     }

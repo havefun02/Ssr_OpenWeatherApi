@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KlSdK75NRUMV4nfveiAgf7or89S4jTbj3rVcaaqY8bk=",
+  "Hash": "Zby5BhADt7goq9Z7KgmHPTT6dkjA23ZhN8Y4BHFBrsg=",
   "Source": "WeatherThirdParty",
   "BasePath": "_content/WeatherThirdParty",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\api\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\js\\api\\getUserLocation.js",
+      "SourceId": "WeatherThirdParty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\",
+      "BasePath": "_content/WeatherThirdParty",
+      "RelativePath": "js/api/getUserLocation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\api\\getUserLocation.js"
     },
     {
       "Identity": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\notFoundPage.html",

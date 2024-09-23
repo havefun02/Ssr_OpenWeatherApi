@@ -115,3 +115,4 @@ C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\obj\Debug\net
 C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\obj\Debug\net8.0\ref\WeatherThirdParty.dll
 C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\obj\Debug\net8.0\WeatherThirdParty.RazorAssemblyInfo.cache
 C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\obj\Debug\net8.0\WeatherThirdParty.RazorAssemblyInfo.cs
+C:\Users\LAP PHAN\source\repos\WeatherThirdParty\WeatherThirdParty\obj\Debug\net8.0\WeatherThirdParty.sourcelink.json
