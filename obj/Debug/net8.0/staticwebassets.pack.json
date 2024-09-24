@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\app\\index.css",
-      "PackagePath": "staticwebassets\\css\\app\\index.css"
-    },
-    {
       "Id": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

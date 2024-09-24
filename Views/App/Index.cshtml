@@ -1,17 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
-<div class="center-container city-search">
-    <div class="search">
-    <input type="text" class="" id="city" placeholder="Search city" required>
+
+<div class="container-fluid mt-4 d-flex flex-column container-height">
+    <div class="row justify-content-center align-items-stretch row-height">
+        <div class="col-8 d-flex flex-column">
+            <div class="search-container" style="background-color:#cccccc">
+                <div class="search">
+                    <input type="text" class="" id="city" placeholder="Search city" required style="background-color:#ffffff">
+                </div>
+                <button id="search-city" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div id="results" class="mt-2" ></div>
+        </div>
+
+        <div id="empty" class="col-4 d-flex flex-column">
+        </div>
     </div>
-    <button id="search-city" type="submit" class="btn btn-primary">Submit</button>
-</div>
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div id="results" class="col-6"></div>
-        <div id="locationDisplay" class="col-6"></div>
+    <div class="row justify-content-center align-items-stretch row-height mt-5">
+        <div id="empty" class="col-4 d-flex flex-column">
+        </div>
+        <div id="locationDisplay" class="col-8 d-flex flex-column">
+        </div>
     </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

@@ -1,19 +1,17 @@
 ﻿@model App.Models.WeatherResult
 
-        <div class="col-10">
-            <div class="border rounded p-4 bg-light shadow">
-                @if (Model != null)
-                {
-                    <h2 class="text-dark">@Model.CityName</h2>
-                    <h4 class="text-dark">@Model.CountryName</h4>
-                    <p><strong>Temperature:</strong> @Model.Temp °K</p>
-                    <p><strong>Humidity:</strong> @Model.Humidity %</p>
-                    <p><strong>Wind Speed:</strong> @Model.WindSpeed m/s</p>
-                    <p><strong>Cloudiness:</strong> @Model.Cloudiness %</p>
-                }
-                else
-                {
-                    <p class="text-danger font-weight-bold">No results found.</p>
-                }
-            </div>
-        </div>
+<div class="border rounded p-2 bg-light shadow">
+    <h6 class="text-dark" style="font-weight:bolder">The city weather data</h6>
+    @if (Model != null)
+    {
+        <h6 class="text-dark" style="font-weight:bolder">@Model.CityName (@Model.CountryName)</h6>
+        <p><strong>Temperature:</strong> @Model.Temp °K</p>
+        <p><strong>Humidity:</strong> @Model.Humidity %</p>
+        <p><strong>Wind Speed:</strong> @Model.WindSpeed m/s</p>
+        <p><strong>Cloudiness:</strong> @Model.Cloudiness %</p>
+    }
+    else
+    {
+        <p class="text-danger font-weight-bold">No results found.</p>
+    }
+</div>

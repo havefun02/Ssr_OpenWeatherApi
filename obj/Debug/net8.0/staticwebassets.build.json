@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zby5BhADt7goq9Z7KgmHPTT6dkjA23ZhN8Y4BHFBrsg=",
+  "Hash": "6TjrQAHNYsnmGuKxxbkAYKW2/qyyjeQJ7fNbp+mZgV8=",
   "Source": "WeatherThirdParty",
   "BasePath": "_content/WeatherThirdParty",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\app\\index.css",
-      "SourceId": "WeatherThirdParty",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\",
-      "BasePath": "_content/WeatherThirdParty",
-      "RelativePath": "css/app/index.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\app\\index.css"
-    },
     {
       "Identity": "C:\\Users\\LAP PHAN\\source\\repos\\WeatherThirdParty\\WeatherThirdParty\\wwwroot\\css\\site.css",
       "SourceId": "WeatherThirdParty",
