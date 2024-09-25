@@ -1,14 +1,14 @@
 pipeline {
     agent {
         docker {
-            image 'mcr.microsoft.com/dotnet/sdk:7.0'
+            image 'mcr.microsoft.com/dotnet/sdk:8.0'
             label 'docker'
         }
     }
     
     environment {
         DOCKER_IMAGE = 'weather'
-        DOCKER_REGISTRY = 'https://hub.docker.com/u/lapphan' // e.g., Docker Hub or Azure Container Registry
+        DOCKER_REGISTRY = 'hub.docker.com/u/' // e.g., Docker Hub or Azure Container Registry
         DOCKER_CREDENTIALS_ID = 'lapphan' // Jenkins credentials ID for Docker login
     }
 
