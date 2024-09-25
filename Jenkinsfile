@@ -8,7 +8,7 @@ pipeline {
     
     environment {
         DOCKER_IMAGE = 'weather'
-        DOCKER_REGISTRY = 'https://hub.docker.com/repositories/lapphan' // e.g., Docker Hub or Azure Container Registry
+        DOCKER_REGISTRY = 'https://hub.docker.com/u/lapphan' // e.g., Docker Hub or Azure Container Registry
         DOCKER_CREDENTIALS_ID = 'lapphan' // Jenkins credentials ID for Docker login
     }
 
