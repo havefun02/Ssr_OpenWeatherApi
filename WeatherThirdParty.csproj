@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="InitDb\" />
     <Folder Include="Entities\" />
+    <Folder Include="wwwroot\css\app\" />
   </ItemGroup>
 
 </Project>

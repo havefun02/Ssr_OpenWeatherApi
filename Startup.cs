@@ -83,7 +83,6 @@ public class Startup
         
         app.UseEndpoints(endpoints =>
         {
-            Log.Information("App started on port 3000");
             endpoints.MapControllerRoute(
                 name: "default",
                 pattern: "{controller}/{action}/{id?}");

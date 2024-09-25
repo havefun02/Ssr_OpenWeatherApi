@@ -1458,3 +1458,116 @@ System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative
 2024-09-24 15:09:20.942 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 742ms
 2024-09-24 15:09:25.686 +07:00 [INF] Handling request: POST /App/SearchCity
 2024-09-24 15:09:26.429 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 742ms
+2024-09-24 16:24:47.583 +07:00 [INF] App started on port 3000
+2024-09-24 16:24:51.236 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:24:51.408 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 175ms
+2024-09-24 16:24:51.461 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:24:51.461 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:24:51.461 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-24 16:24:51.482 +07:00 [INF] Finished handling request: GET /css/site.css with status code 304 in 21ms
+2024-09-24 16:24:51.487 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 26ms
+2024-09-24 16:24:51.487 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 26ms
+2024-09-24 16:24:51.773 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:24:52.214 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 441ms
+2024-09-24 16:25:09.443 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:25:09.447 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 3ms
+2024-09-24 16:25:13.645 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:25:13.653 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 8ms
+2024-09-24 16:25:13.675 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:25:13.675 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:25:13.679 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-24 16:25:13.682 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 7ms
+2024-09-24 16:25:13.871 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:25:13.992 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 121ms
+2024-09-24 16:25:16.095 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:25:16.098 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 2ms
+2024-09-24 16:25:16.120 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:25:16.122 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:25:16.124 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 3ms
+2024-09-24 16:25:16.124 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 2ms
+2024-09-24 16:25:16.291 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:25:16.369 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 77ms
+2024-09-24 16:25:21.060 +07:00 [INF] Handling request: GET /app/about
+2024-09-24 16:25:21.067 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 7ms
+2024-09-24 16:25:21.099 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:25:21.103 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 4ms
+2024-09-24 16:25:21.104 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:25:21.118 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-24 16:25:54.334 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:25:54.337 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-24 16:25:54.377 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:25:54.380 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:25:54.380 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 3ms
+2024-09-24 16:25:54.383 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 3ms
+2024-09-24 16:25:54.750 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:25:54.830 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 79ms
+2024-09-24 16:25:58.865 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-24 16:25:59.650 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 784ms
+2024-09-24 16:28:10.958 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:28:10.963 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 5ms
+2024-09-24 16:28:10.990 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:28:10.990 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:28:11.001 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 11ms
+2024-09-24 16:28:11.003 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 12ms
+2024-09-24 16:28:11.371 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:28:11.523 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 152ms
+2024-09-24 16:28:37.294 +07:00 [INF] Handling request: GET /app/about
+2024-09-24 16:28:37.299 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 4ms
+2024-09-24 16:28:37.345 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:28:37.348 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:28:37.351 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 5ms
+2024-09-24 16:28:37.357 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 9ms
+2024-09-24 16:28:38.805 +07:00 [INF] Handling request: GET /app/about
+2024-09-24 16:28:38.810 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 4ms
+2024-09-24 16:28:38.831 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:28:38.834 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:28:38.838 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 6ms
+2024-09-24 16:28:38.839 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 5ms
+2024-09-24 16:29:19.124 +07:00 [INF] Handling request: GET /app/about
+2024-09-24 16:29:19.129 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 4ms
+2024-09-24 16:29:19.149 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:29:19.150 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:29:19.153 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 4ms
+2024-09-24 16:29:19.159 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-24 16:29:43.829 +07:00 [INF] Handling request: GET /app/about
+2024-09-24 16:29:43.832 +07:00 [INF] Finished handling request: GET /app/about with status code 200 in 2ms
+2024-09-24 16:29:43.848 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:29:43.850 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:29:43.852 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 3ms
+2024-09-24 16:29:43.858 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 8ms
+2024-09-24 16:29:45.324 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:29:45.328 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-24 16:29:45.371 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:29:45.375 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 3ms
+2024-09-24 16:29:45.376 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:29:45.390 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 14ms
+2024-09-24 16:29:45.529 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:29:45.682 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 153ms
+2024-09-24 16:29:51.472 +07:00 [INF] Handling request: POST /App/SearchCity
+2024-09-24 16:29:51.629 +07:00 [INF] Finished handling request: POST /App/SearchCity with status code 200 in 156ms
+2024-09-24 16:30:11.813 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:30:11.816 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-24 16:30:11.842 +07:00 [INF] Handling request: GET /css/site.css
+2024-09-24 16:30:11.844 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:30:11.848 +07:00 [INF] Handling request: GET /js/api/app.js
+2024-09-24 16:30:11.848 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:30:11.850 +07:00 [INF] Handling request: GET /js/api/getUserLocation.js
+2024-09-24 16:30:11.855 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 11ms
+2024-09-24 16:30:11.859 +07:00 [INF] Finished handling request: GET /js/api/app.js with status code 200 in 10ms
+2024-09-24 16:30:11.859 +07:00 [INF] Finished handling request: GET /css/site.css with status code 200 in 16ms
+2024-09-24 16:30:11.863 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 15ms
+2024-09-24 16:30:11.864 +07:00 [INF] Finished handling request: GET /js/api/getUserLocation.js with status code 200 in 13ms
+2024-09-24 16:30:12.223 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:30:12.441 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 218ms
+2024-09-24 16:30:15.476 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:30:15.479 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 2ms
+2024-09-24 16:30:16.019 +07:00 [INF] Handling request: GET /robots.txt
+2024-09-24 16:30:16.022 +07:00 [INF] Finished handling request: GET /robots.txt with status code 404 in 2ms
+2024-09-24 16:30:18.965 +07:00 [INF] Handling request: GET /app/index
+2024-09-24 16:30:18.968 +07:00 [INF] Finished handling request: GET /app/index with status code 200 in 3ms
+2024-09-24 16:30:18.994 +07:00 [INF] Handling request: GET /css/app/index.css
+2024-09-24 16:30:18.996 +07:00 [INF] Handling request: GET /js/site.js
+2024-09-24 16:30:18.996 +07:00 [INF] Finished handling request: GET /css/app/index.css with status code 404 in 2ms
+2024-09-24 16:30:19.000 +07:00 [INF] Finished handling request: GET /js/site.js with status code 404 in 4ms
+2024-09-24 16:30:19.400 +07:00 [INF] Handling request: POST /app/UserLocation
+2024-09-24 16:30:19.484 +07:00 [INF] Finished handling request: POST /app/UserLocation with status code 200 in 83ms
