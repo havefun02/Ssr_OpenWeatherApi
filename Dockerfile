@@ -1,25 +1,27 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY *.sln ./
+COPY WeatherThirdParty/*.csproj ./WeatherThirdParty/
+RUN dotnet restore
+
+# Copy the rest of the application code
+COPY . ./
+
+# Build the application in Release mode
+RUN dotnet build --configuration Release --output /app/build
+
+# Publish the app to a folder for deployment
+RUN dotnet publish --configuration Release --output /app/publish
+
+# Stage 2: Use a lightweight runtime image to run the app
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build-env /app/publish .
+
+# Expose port 80 for the web app
 EXPOSE 3000
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
-
-# Copy the project file and restore dependencies
-COPY ["WeatherThirdParty.csproj", "./"]
-RUN dotnet restore "./WeatherThirdParty.csproj"
-
-# Copy the entire project and build it
-COPY . .
-WORKDIR "/src/."
-RUN dotnet build "WeatherThirdParty.csproj" -c Release -o /app/build
-
-# Publish the application
-FROM build AS publish
-RUN dotnet publish "WeatherThirdParty.csproj" -c Release -o /app/publish
-
-# Final stage, where we set up the runtime
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
+# Run the app
 ENTRYPOINT ["dotnet", "WeatherThirdParty.dll"]

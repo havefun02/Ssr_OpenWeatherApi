@@ -1,13 +1,9 @@
 pipeline {
-    agent {
-        docker {
-            image 'mcr.microsoft.com/dotnet/sdk:8.0'
-            label 'docker'
-        }
-    }
+    agent any
     
     environment {
-        DOCKER_IMAGE = 'weather'
+        IMAGE_NAME="weather"
+        IMAGE_TAG = 'latest'
         DOCKER_REGISTRY = 'hub.docker.com/u/' // e.g., Docker Hub or Azure Container Registry
         DOCKER_CREDENTIALS_ID = 'lapphan' // Jenkins credentials ID for Docker login
     }
@@ -17,37 +13,36 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/havefun02/Ssr_OpenWeatherApi.git'
+                git 'https://github.com/havefun02/Ssr_OpenWeatherApi.git',branch :'main'
             }
         }
 
-        stage('Build') {
+         stage('Build Docker Image') {
             steps {
-                // Build the Docker image
                 script {
-                    sh 'docker build -t $DOCKER_IMAGE .'
+                    // Build the Docker image using Dockerfile
+                    sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
                 }
             }
         }
 
-        stage('Test') {
+        stage('Run Tests in Docker') {
             steps {
-                // Run your tests here
                 script {
-                    // Example of running tests
-                    sh 'dotnet test WeatherThirdParty.Tests/WeatherThirdParty.Tests.csproj'
+                    // Run the tests inside a Docker container
+                    // The .NET test project is executed with `dotnet test`
+                    sh "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
                 }
             }
         }
-
-        stage('Publish') {
+        stage('Push Docker Image to Registry') {
             steps {
-                // Publish the Docker image to a registry
                 script {
-                    // Log in to Docker registry
-                    docker.withRegistry("https://$DOCKER_REGISTRY", "$DOCKER_CREDENTIALS_ID") {
-                        sh 'docker push $DOCKER_IMAGE'
-                    }
+                    // Ensure you are logged in to your Docker registry
+                    // Push the built image to a Docker registry if needed
+                    sh "docker login -u 'your-username' -p 'your-password'"
+                    sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                    sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
                 }
             }
         }
@@ -67,8 +62,14 @@ pipeline {
 
     post {
         always {
-            // Clean up Docker images to save space
-            sh 'docker rmi $DOCKER_IMAGE || true'
+            // Always remove the Docker image locally after the pipeline finishes
+            sh "docker rmi ${IMAGE_NAME}:${IMAGE_TAG} || true"
+        }
+        success {
+            echo "Pipeline completed successfully!"
+        }
+        failure {
+            echo "Pipeline failed!"
         }
     }
 }
