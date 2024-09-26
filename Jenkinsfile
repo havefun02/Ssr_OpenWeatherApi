@@ -13,6 +13,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
+                // Clone the repository
+
                 git 'https://github.com/havefun02/Ssr_OpenWeatherApi.git',branch :'main'
             }
         }
