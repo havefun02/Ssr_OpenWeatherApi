@@ -14,7 +14,7 @@ pipeline {
             steps {
                 // Clone the repository
                 //repository1
-                git 'https://github.com/havefun02/Ssr_OpenWeatherApi.git',branch :'main'
+                checkout scm
             }
         }
 
