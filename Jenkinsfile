@@ -38,6 +38,7 @@ pipeline {
         stage('Push Docker Image to Registry') {
             steps {
                 script {
+                    // Push the built image to a Docker registry if needed
                     sh "docker login -u 'your-username' -p 'your-password'"
                     sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
                     sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
