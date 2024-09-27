@@ -14,6 +14,8 @@ pipeline {
             steps {
                 // Clone the repository
                 //repository1
+                //echo "check out"
+
                 checkout scm
             }
         }
