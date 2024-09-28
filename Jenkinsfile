@@ -55,17 +55,17 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
+        /*stage('Deploy') {
             steps {
                 // Deploy the application (e.g., using SSH, Kubernetes, etc.)
                 script {
                     // Example SSH deployment
-                    sh '''
+                    sh ''
                     ssh user@yourserver "docker pull $DOCKER_IMAGE && docker stop yourcontainername || true && docker rm yourcontainername || true && docker run -d -p 80:80 --name yourcontainername $DOCKER_IMAGE"
-                    '''
+                    ''
                 }
             }
-        }
+        }*/
     }
 
     post {
