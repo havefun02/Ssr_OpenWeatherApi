@@ -25,9 +25,9 @@ pipeline {
                     echo "Add condition for build image statement"
 
                     if (isUnix()) {
-                       sh docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+                       sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
                     } else {
-                        bat docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+                        bat "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
                     }
                 }
             }
