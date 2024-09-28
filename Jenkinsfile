@@ -12,10 +12,6 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Clone the repository
-                //repository1
-                //echo "check out"
-
                 checkout scm
             }
         }
@@ -23,8 +19,8 @@ pipeline {
          stage('Build Docker Image') {
             steps {
                 script {
-                    // Build the Docker image using Dockerfile
-                    dockerImage = docker.build("${DOCKER_IMAGE}:${IMAGE_TAG}")
+                    echo "Start build image"
+                    sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
                 }
             }
         }
@@ -32,9 +28,11 @@ pipeline {
         stage('Run Tests in Docker') {
             steps {
                 script {
-                    dockerImage.inside {
+                    echo "Run test in docker"
+
+                    // Run the tests inside a Docker container
+                    // The .NET test project is executed with `dotnet test`
                     sh "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
-                    }
                 }
             }
         }
