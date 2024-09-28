@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image using Dockerfile
-                    sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
+                    dockerImage = docker.build("${DOCKER_IMAGE}:${IMAGE_TAG}")
                 }
             }
         }
@@ -32,9 +32,9 @@ pipeline {
         stage('Run Tests in Docker') {
             steps {
                 script {
-                    // Run the tests inside a Docker container
-                    // The .NET test project is executed with `dotnet test`
+                    dockerImage.inside {
                     sh "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
+                    }
                 }
             }
         }
