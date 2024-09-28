@@ -53,7 +53,7 @@ pipeline {
             }
         }
 
-        /*stage('Deploy') {
+        stage('Deploy') {
             steps {
                 // Deploy the application (e.g., using SSH, Kubernetes, etc.)
                 script {
@@ -63,7 +63,7 @@ pipeline {
                     '''
                 }
             }
-        }*/
+        }
     }
 
     post {
