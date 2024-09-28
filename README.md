@@ -1,5 +1,1 @@
-Add readme
-Please run
-Please run
-Please run
-please work
+This project is a webapp using server-side-rendering to serve contents and services to clients.
