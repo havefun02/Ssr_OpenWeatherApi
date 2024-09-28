@@ -20,9 +20,6 @@ pipeline {
             steps {
                 script {
                     echo "Start build image"
-                    echo "Add condition for build image statement"
-                    echo "Add condition for build image statement"
-                    echo "Add condition for build image statement"
 
                     if (isUnix()) {
                        sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
@@ -37,20 +34,29 @@ pipeline {
             steps {
                 script {
                     echo "Run test in docker"
-
-                    // Run the tests inside a Docker container
-                    // The .NET test project is executed with `dotnet test`
-                    sh "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
+                    if (isUnix()) {
+                        sh "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
+                    } else{
+                        bat "docker run --rm ${IMAGE_NAME}:${IMAGE_TAG} dotnet test --no-build --verbosity normal"
+                    }
                 }
             }
         }
         stage('Push Docker Image to Registry') {
             steps {
                 script {
-                    // Push the built image to a Docker registry if needed
-                    sh "docker login -u 'your-username' -p 'your-password'"
-                    sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                    sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+
+                    echo "Push to docker hub"
+                    if (isUnix()) {
+                        sh "docker login -u 'your-username' -p 'your-password'"
+                        sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                        sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                
+                    } else {
+                        bat "docker login -u 'your-username' -p 'your-password'"
+                        bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                        bat "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                    }
                 }
             }
         }
