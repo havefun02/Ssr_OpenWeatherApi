@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        IMAGE_NAME="weather"
+        IMAGE_NAME="weather_app"
         IMAGE_TAG = 'latest'
         DOCKER_REGISTRY = 'hub.docker.com/u/' // e.g., Docker Hub or Azure Container Registry
         DOCKER_CREDENTIALS_ID = 'lapphan' // Jenkins credentials ID for Docker login
