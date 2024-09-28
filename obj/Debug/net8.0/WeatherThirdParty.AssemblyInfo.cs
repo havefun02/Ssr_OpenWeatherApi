@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherThirdParty")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9170533db59af587e6abdde20dfb372433559b21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c30d07c36126bf3d95b4285bc7adeeddd10aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherThirdParty")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherThirdParty")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
