@@ -20,7 +20,11 @@ pipeline {
             steps {
                 script {
                     echo "Start build image"
-                    sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
+                    if (isUnix()) {
+                       sh docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+                    } else {
+                        bat docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+                    }
                 }
             }
         }
