@@ -60,6 +60,7 @@ pipeline {
                             bat "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
                         }
                     }
+                }
             }
         }
 
