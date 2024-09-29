@@ -4,8 +4,8 @@ pipeline {
     environment {
         IMAGE_NAME="weather_app"
         IMAGE_TAG = 'latest'
-        DOCKER_REGISTRY = 'hub.docker.com/u/' // e.g., Docker Hub or Azure Container Registry
-        DOCKER_CREDENTIALS_ID = 'lapphan' // Jenkins credentials ID for Docker login
+        DOCKER_REPO = 'lapphan/demo_github_jenkins_docker'
+        DOCKER_CREDENTIALS_ID = 'docker-auth' // Jenkins credentials ID for Docker login
     }
 
 
@@ -47,17 +47,17 @@ pipeline {
                 script {
 
                     echo "Push to docker hub"
-                    withCredentials([usernamePassword(credentialsId: 'docker-auth', 
+                    withCredentials([usernamePassword(credentialsId: ${DOCKER_CREDENTIALS_ID}, 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
                         if (isUnix()) {
                             sh "echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin"
-                            sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                            sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                            sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
+                            sh "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
                         } else {
                             bat "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
-                            bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                            bat "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                            bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
+                            bat "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
                         }
                     }
                 }
