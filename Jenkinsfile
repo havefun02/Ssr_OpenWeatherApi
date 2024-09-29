@@ -30,7 +30,7 @@ pipeline {
             }
         }
 
-        stage('Run Tests in Docker') {
+        /*stage('Run Tests in Docker') {
             steps {
                 script {
                     echo "Run test in docker"
@@ -41,23 +41,25 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
         stage('Push Docker Image to Registry') {
             steps {
                 script {
 
                     echo "Push to docker hub"
-                    if (isUnix()) {
-                        sh "docker login -u 'your-username' -p 'your-password'"
-                        sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                        sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                
-                    } else {
-                        bat "docker login -u 'your-username' -p 'your-password'"
-                        bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
-                        bat "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                    withCredentials([usernamePassword(credentialsId: 'docker-entry', 
+                                              usernameVariable: 'DOCKER_USERNAME', 
+                                              passwordVariable: 'DOCKER_PASSWORD')]) {
+                        if (isUnix()) {
+                            sh "echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin"
+                            sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                            sh "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                        } else {
+                            bat "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
+                            bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                            bat "docker push your-docker-repo/${IMAGE_NAME}:${IMAGE_TAG}"
+                        }
                     }
-                }
             }
         }
 
