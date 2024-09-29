@@ -47,7 +47,7 @@ pipeline {
                 script {
 
                     echo "Push to docker hub"
-                    withCredentials([usernamePassword(credentialsId: 'docker-entry', 
+                    withCredentials([usernamePassword(credentialsId: 'docker-auth', 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
                         if (isUnix()) {
