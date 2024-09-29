@@ -45,8 +45,9 @@ pipeline {
         stage('Push Docker Image to Registry') {
             steps {
                 script {
-
                     echo "Push to docker hub"
+                    echo ${DOCKER_CREDENTIALS_ID}
+
                     withCredentials([usernamePassword(credentialsId: ${DOCKER_CREDENTIALS_ID}, 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
