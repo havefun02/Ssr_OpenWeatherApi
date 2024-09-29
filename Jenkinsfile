@@ -46,7 +46,10 @@ pipeline {
             steps {
                 script {
                     echo "Push to docker hub"
+                    echo "Push to docker hub"
+
                     echo ${DOCKER_CREDENTIALS_ID}
+                    echo "Push to docker hub"
 
                     withCredentials([usernamePassword(credentialsId: ${DOCKER_CREDENTIALS_ID}, 
                                               usernameVariable: 'DOCKER_USERNAME', 
