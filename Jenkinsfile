@@ -3,9 +3,9 @@ pipeline {
     
     environment {
         IMAGE_NAME="weather_app"
-        IMAGE_TAG = 'latest'
-        DOCKER_REPO = 'lapphan/demo_github_jenkins_docker'
-        DOCKER_CREDENTIALS_ID = 'docker-auth' // Jenkins credentials ID for Docker login
+        IMAGE_TAG = "latest"
+        DOCKER_REPO = "lapphan/demo_github_jenkins_docker"
+        DOCKER_CREDENTIALS_ID = "docker-auth" // Jenkins credentials ID for Docker login
     }
 
 
