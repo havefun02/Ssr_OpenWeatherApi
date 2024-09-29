@@ -51,13 +51,13 @@ pipeline {
 
                         if (isUnix()) {
                             sh "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
-                            sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
-                            sh "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
+                            sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}:${IMAGE_TAG}"
+                            sh "docker push ${DOCKER_REPO}:${IMAGE_TAG}"
                         } else {
                         bat "docker info"
                             bat "docker login -u %DOCKER_USERNAME% -p %DOCKER_PASSWORD%"
-                            bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
-                            bat "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
+                            bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}:${IMAGE_TAG}"
+                            bat "docker push ${DOCKER_REPO}:${IMAGE_TAG}"
                         }
                     }
                 }
