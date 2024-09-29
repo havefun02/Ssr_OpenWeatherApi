@@ -45,7 +45,7 @@ pipeline {
         stage('Push Docker Image to Registry') {
             steps {
                 script {
-                    withCredentials([usernamePassword(credentialsId: 'docker-auth', 
+                    withCredentials([usernamePassword(credentialsId: 'docker', 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
                         if (isUnix()) {
