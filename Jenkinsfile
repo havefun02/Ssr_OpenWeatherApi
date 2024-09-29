@@ -48,6 +48,8 @@ pipeline {
                     withCredentials([usernamePassword(credentialsId: 'docker-auth', 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
+                        echo "Username: $DOCKER_USERNAME"
+                        echo "Password: $DOCKER_PASSWORD"
                         if (isUnix()) {
                             sh "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
                             sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
