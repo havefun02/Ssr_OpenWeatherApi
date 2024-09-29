@@ -48,11 +48,13 @@ pipeline {
                     withCredentials([usernamePassword(credentialsId: 'docker', 
                                               usernameVariable: 'DOCKER_USERNAME', 
                                               passwordVariable: 'DOCKER_PASSWORD')]) {
+
                         if (isUnix()) {
                             sh "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
                             sh "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
                             sh "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
                         } else {
+                        bat "docker info"
                             bat "echo %DOCKER_PASSWORD% | docker login -u %DOCKER_USERNAME% --password-stdin"
                             bat "docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
                             bat "docker push ${DOCKER_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
